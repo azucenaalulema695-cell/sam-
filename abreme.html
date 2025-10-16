@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Eres mi mejor amiga en binario</title>
+  <style>
+    body {
+      font-family: monospace;
+      font-size: 20px;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .heart { color: red; font-weight: bold; }
+    .dot { color: gray; }
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 220px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -110px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Eres mi mejor amiga en binario ❤️</h2>
+
+<p>
+  <span class="dot">.</span><span class="heart">❤️</span><span class="dot">.</span><span class="heart">❤️</span>
+  <span class="dot">.</span><span class="heart">❤️</span><span class="dot">.</span><span class="heart">❤️</span>
+  <span class="dot">.</span><span class="dot">.</span><span class="heart">❤️</span><span class="dot">.</span>
+  <span class="heart">❤️</span><span class="dot">.</span><span class="heart">❤️</span><span class="dot">.</span>
+  <span class="dot">.</span><span class="heart">❤️</span><span class="dot">.</span><span class="dot">.</span>
+  <span class="heart">❤️</span><span class="dot">.</span><span class="heart">❤️</span><span class="dot">.</span>
+  <span class="dot">.</span><span class="heart">❤️</span><span class="dot">.</span><span class="heart">❤️</span>
+  <span class="dot">.</span><span class="heart">❤️</span><span class="dot">.</span><span class="heart">❤️</span>
+  <span class="dot">.</span><span class="dot">.</span><span class="heart">❤️</span>
+</p>
+
+<div class="tooltip">
+  Mostrar mensaje
+  <span class="tooltiptext">eres la mejor amiga</span>
+</div>
+
+</body>
+</html>
